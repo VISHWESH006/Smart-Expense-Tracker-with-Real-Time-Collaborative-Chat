@@ -3,7 +3,7 @@ package chat;
 import model.Message;
 
 public class ChatRoom {
-    private int turn = 0; // 0 = Alice, 1 = Bob
+    private int turn = 0;
 
     public synchronized void sendMessage(Message msg, int userId) {
         try {

@@ -13,7 +13,6 @@ public class Main {
 
         List<User> users = Arrays.asList(u1, u2);
 
-        // Expense system
         ExpenseService expenseService = new ExpenseService(users);
         expenseService.splitExpense(u1, 500);
 
